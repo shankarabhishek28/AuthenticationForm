@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(46, 44, 43);
+}
+main{
+    margin-top: 100px;
+    height: 50%;
+    width: 100%;
+}
+h1{
+    background-color: cadetblue;
+}
+form{
+    width: 30%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    
+}
+form input:nth-child(1){
+    margin-bottom: 10px;
+}
+form input:nth-child(2){
+    margin-bottom: 10px;
+}
+button{
+    padding: 7px;
+    margin-top: 40px;
+    border: 0px ;
+    border-radius: 7px;
+    background-color: blueviolet;
+    color: white;
+
+}
+button:hover{
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+input{
+    padding: 10px;
+    height: 30px;
+    width: 70%;
+    background-color: transparent;
+    border: 0px solid black;
+}
+h3{
+    background-color: white;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    background-color: transparent;
+    color: red;
+    margin-left: 52%;
+    font-size: 0.75rem;
+}
